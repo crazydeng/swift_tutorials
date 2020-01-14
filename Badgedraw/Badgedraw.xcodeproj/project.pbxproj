@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F51ED14523CE066E007CBC19 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51ED14423CE066E007CBC19 /* AppDelegate.swift */; };
+		F51ED14723CE066E007CBC19 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51ED14623CE066E007CBC19 /* SceneDelegate.swift */; };
+		F51ED14923CE066E007CBC19 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51ED14823CE066E007CBC19 /* ContentView.swift */; };
+		F51ED14B23CE0670007CBC19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F51ED14A23CE0670007CBC19 /* Assets.xcassets */; };
+		F51ED14E23CE0670007CBC19 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F51ED14D23CE0670007CBC19 /* Preview Assets.xcassets */; };
+		F51ED15123CE0670007CBC19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F51ED14F23CE0670007CBC19 /* LaunchScreen.storyboard */; };
+		F51ED15C23CE0670007CBC19 /* BadgedrawTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51ED15B23CE0670007CBC19 /* BadgedrawTests.swift */; };
+		F51ED16723CE0670007CBC19 /* BadgedrawUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51ED16623CE0670007CBC19 /* BadgedrawUITests.swift */; };
+		F51ED17523CE0717007CBC19 /* Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51ED17423CE0717007CBC19 /* Badge.swift */; };
+		F51ED17723CE076F007CBC19 /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51ED17623CE076F007CBC19 /* HexagonParameters.swift */; };
+		F51ED17923CE1528007CBC19 /* BadgeBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51ED17823CE1528007CBC19 /* BadgeBackground.swift */; };
+		F51ED17B23CE15A2007CBC19 /* BadgeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51ED17A23CE15A2007CBC19 /* BadgeSymbol.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F51ED15823CE0670007CBC19 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F51ED13923CE066D007CBC19 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F51ED14023CE066D007CBC19;
+			remoteInfo = Badgedraw;
+		};
+		F51ED16323CE0670007CBC19 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F51ED13923CE066D007CBC19 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F51ED14023CE066D007CBC19;
+			remoteInfo = Badgedraw;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F51ED14123CE066E007CBC19 /* Badgedraw.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Badgedraw.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F51ED14423CE066E007CBC19 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F51ED14623CE066E007CBC19 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F51ED14823CE066E007CBC19 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F51ED14A23CE0670007CBC19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F51ED14D23CE0670007CBC19 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F51ED15023CE0670007CBC19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F51ED15223CE0670007CBC19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F51ED15723CE0670007CBC19 /* BadgedrawTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BadgedrawTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F51ED15B23CE0670007CBC19 /* BadgedrawTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgedrawTests.swift; sourceTree = "<group>"; };
+		F51ED15D23CE0670007CBC19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F51ED16223CE0670007CBC19 /* BadgedrawUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BadgedrawUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F51ED16623CE0670007CBC19 /* BadgedrawUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgedrawUITests.swift; sourceTree = "<group>"; };
+		F51ED16823CE0670007CBC19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F51ED17423CE0717007CBC19 /* Badge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Badge.swift; sourceTree = "<group>"; };
+		F51ED17623CE076F007CBC19 /* HexagonParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonParameters.swift; sourceTree = "<group>"; };
+		F51ED17823CE1528007CBC19 /* BadgeBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeBackground.swift; sourceTree = "<group>"; };
+		F51ED17A23CE15A2007CBC19 /* BadgeSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeSymbol.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F51ED13E23CE066D007CBC19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F51ED15423CE0670007CBC19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F51ED15F23CE0670007CBC19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F51ED13823CE066D007CBC19 = {
+			isa = PBXGroup;
+			children = (
+				F51ED14323CE066E007CBC19 /* Badgedraw */,
+				F51ED15A23CE0670007CBC19 /* BadgedrawTests */,
+				F51ED16523CE0670007CBC19 /* BadgedrawUITests */,
+				F51ED14223CE066E007CBC19 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F51ED14223CE066E007CBC19 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F51ED14123CE066E007CBC19 /* Badgedraw.app */,
+				F51ED15723CE0670007CBC19 /* BadgedrawTests.xctest */,
+				F51ED16223CE0670007CBC19 /* BadgedrawUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F51ED14323CE066E007CBC19 /* Badgedraw */ = {
+			isa = PBXGroup;
+			children = (
+				F51ED14423CE066E007CBC19 /* AppDelegate.swift */,
+				F51ED14623CE066E007CBC19 /* SceneDelegate.swift */,
+				F51ED14823CE066E007CBC19 /* ContentView.swift */,
+				F51ED17423CE0717007CBC19 /* Badge.swift */,
+				F51ED17823CE1528007CBC19 /* BadgeBackground.swift */,
+				F51ED17A23CE15A2007CBC19 /* BadgeSymbol.swift */,
+				F51ED17623CE076F007CBC19 /* HexagonParameters.swift */,
+				F51ED14A23CE0670007CBC19 /* Assets.xcassets */,
+				F51ED14F23CE0670007CBC19 /* LaunchScreen.storyboard */,
+				F51ED15223CE0670007CBC19 /* Info.plist */,
+				F51ED14C23CE0670007CBC19 /* Preview Content */,
+			);
+			path = Badgedraw;
+			sourceTree = "<group>";
+		};
+		F51ED14C23CE0670007CBC19 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F51ED14D23CE0670007CBC19 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F51ED15A23CE0670007CBC19 /* BadgedrawTests */ = {
+			isa = PBXGroup;
+			children = (
+				F51ED15B23CE0670007CBC19 /* BadgedrawTests.swift */,
+				F51ED15D23CE0670007CBC19 /* Info.plist */,
+			);
+			path = BadgedrawTests;
+			sourceTree = "<group>";
+		};
+		F51ED16523CE0670007CBC19 /* BadgedrawUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F51ED16623CE0670007CBC19 /* BadgedrawUITests.swift */,
+				F51ED16823CE0670007CBC19 /* Info.plist */,
+			);
+			path = BadgedrawUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F51ED14023CE066D007CBC19 /* Badgedraw */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F51ED16B23CE0670007CBC19 /* Build configuration list for PBXNativeTarget "Badgedraw" */;
+			buildPhases = (
+				F51ED13D23CE066D007CBC19 /* Sources */,
+				F51ED13E23CE066D007CBC19 /* Frameworks */,
+				F51ED13F23CE066D007CBC19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Badgedraw;
+			productName = Badgedraw;
+			productReference = F51ED14123CE066E007CBC19 /* Badgedraw.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F51ED15623CE0670007CBC19 /* BadgedrawTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F51ED16E23CE0670007CBC19 /* Build configuration list for PBXNativeTarget "BadgedrawTests" */;
+			buildPhases = (
+				F51ED15323CE0670007CBC19 /* Sources */,
+				F51ED15423CE0670007CBC19 /* Frameworks */,
+				F51ED15523CE0670007CBC19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F51ED15923CE0670007CBC19 /* PBXTargetDependency */,
+			);
+			name = BadgedrawTests;
+			productName = BadgedrawTests;
+			productReference = F51ED15723CE0670007CBC19 /* BadgedrawTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F51ED16123CE0670007CBC19 /* BadgedrawUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F51ED17123CE0670007CBC19 /* Build configuration list for PBXNativeTarget "BadgedrawUITests" */;
+			buildPhases = (
+				F51ED15E23CE0670007CBC19 /* Sources */,
+				F51ED15F23CE0670007CBC19 /* Frameworks */,
+				F51ED16023CE0670007CBC19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F51ED16423CE0670007CBC19 /* PBXTargetDependency */,
+			);
+			name = BadgedrawUITests;
+			productName = BadgedrawUITests;
+			productReference = F51ED16223CE0670007CBC19 /* BadgedrawUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F51ED13923CE066D007CBC19 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = crazydeng;
+				TargetAttributes = {
+					F51ED14023CE066D007CBC19 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					F51ED15623CE0670007CBC19 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = F51ED14023CE066D007CBC19;
+					};
+					F51ED16123CE0670007CBC19 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = F51ED14023CE066D007CBC19;
+					};
+				};
+			};
+			buildConfigurationList = F51ED13C23CE066D007CBC19 /* Build configuration list for PBXProject "Badgedraw" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F51ED13823CE066D007CBC19;
+			productRefGroup = F51ED14223CE066E007CBC19 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F51ED14023CE066D007CBC19 /* Badgedraw */,
+				F51ED15623CE0670007CBC19 /* BadgedrawTests */,
+				F51ED16123CE0670007CBC19 /* BadgedrawUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F51ED13F23CE066D007CBC19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F51ED15123CE0670007CBC19 /* LaunchScreen.storyboard in Resources */,
+				F51ED14E23CE0670007CBC19 /* Preview Assets.xcassets in Resources */,
+				F51ED14B23CE0670007CBC19 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F51ED15523CE0670007CBC19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F51ED16023CE0670007CBC19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F51ED13D23CE066D007CBC19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F51ED17723CE076F007CBC19 /* HexagonParameters.swift in Sources */,
+				F51ED17923CE1528007CBC19 /* BadgeBackground.swift in Sources */,
+				F51ED14523CE066E007CBC19 /* AppDelegate.swift in Sources */,
+				F51ED17523CE0717007CBC19 /* Badge.swift in Sources */,
+				F51ED14723CE066E007CBC19 /* SceneDelegate.swift in Sources */,
+				F51ED14923CE066E007CBC19 /* ContentView.swift in Sources */,
+				F51ED17B23CE15A2007CBC19 /* BadgeSymbol.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F51ED15323CE0670007CBC19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F51ED15C23CE0670007CBC19 /* BadgedrawTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F51ED15E23CE0670007CBC19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F51ED16723CE0670007CBC19 /* BadgedrawUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F51ED15923CE0670007CBC19 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F51ED14023CE066D007CBC19 /* Badgedraw */;
+			targetProxy = F51ED15823CE0670007CBC19 /* PBXContainerItemProxy */;
+		};
+		F51ED16423CE0670007CBC19 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F51ED14023CE066D007CBC19 /* Badgedraw */;
+			targetProxy = F51ED16323CE0670007CBC19 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F51ED14F23CE0670007CBC19 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F51ED15023CE0670007CBC19 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F51ED16923CE0670007CBC19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F51ED16A23CE0670007CBC19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F51ED16C23CE0670007CBC19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Badgedraw/Preview Content\"";
+				DEVELOPMENT_TEAM = XJU2Q39Y8V;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Badgedraw/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tulavie.com.Badgedraw;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F51ED16D23CE0670007CBC19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Badgedraw/Preview Content\"";
+				DEVELOPMENT_TEAM = XJU2Q39Y8V;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Badgedraw/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tulavie.com.Badgedraw;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F51ED16F23CE0670007CBC19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XJU2Q39Y8V;
+				INFOPLIST_FILE = BadgedrawTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tulavie.com.BadgedrawTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Badgedraw.app/Badgedraw";
+			};
+			name = Debug;
+		};
+		F51ED17023CE0670007CBC19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XJU2Q39Y8V;
+				INFOPLIST_FILE = BadgedrawTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tulavie.com.BadgedrawTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Badgedraw.app/Badgedraw";
+			};
+			name = Release;
+		};
+		F51ED17223CE0670007CBC19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XJU2Q39Y8V;
+				INFOPLIST_FILE = BadgedrawUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tulavie.com.BadgedrawUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Badgedraw;
+			};
+			name = Debug;
+		};
+		F51ED17323CE0670007CBC19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XJU2Q39Y8V;
+				INFOPLIST_FILE = BadgedrawUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tulavie.com.BadgedrawUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Badgedraw;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F51ED13C23CE066D007CBC19 /* Build configuration list for PBXProject "Badgedraw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F51ED16923CE0670007CBC19 /* Debug */,
+				F51ED16A23CE0670007CBC19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F51ED16B23CE0670007CBC19 /* Build configuration list for PBXNativeTarget "Badgedraw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F51ED16C23CE0670007CBC19 /* Debug */,
+				F51ED16D23CE0670007CBC19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F51ED16E23CE0670007CBC19 /* Build configuration list for PBXNativeTarget "BadgedrawTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F51ED16F23CE0670007CBC19 /* Debug */,
+				F51ED17023CE0670007CBC19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F51ED17123CE0670007CBC19 /* Build configuration list for PBXNativeTarget "BadgedrawUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F51ED17223CE0670007CBC19 /* Debug */,
+				F51ED17323CE0670007CBC19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F51ED13923CE066D007CBC19 /* Project object */;
+}
